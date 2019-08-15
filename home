@@ -1,0 +1,64 @@
+
+     
+       
+            <div class="row">
+            <div class="col-xs-12">
+                <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
+                    <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
+                    <li data-slide-to="2" data-target="#carousel-example-generic" class=""></li>
+                       <li data-slide-to="3" data-target="#carousel-example-generic" class=""></li>
+                 
+                  </ol>
+                
+                  <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item">
+                          <img alt="..." src="http://d33wyx0pza9yj4.cloudfront.net/sites/543430a26e6f6454b6010000/73f64b29bdd4125ed753caadd77b8f74/Spotted_Fall14-0x0.png">
+                          <div class="carousel-caption">
+    
+                         </div>
+                    </div>
+                    <div class="item active">
+                      <img alt="..." src="http://d33wyx0pza9yj4.cloudfront.net/sites/543430a26e6f6454b6010000/73f64b29bdd4125ed753caadd77b8f74/ShopTheLook_Fall14-0x0.png">
+                      <div class="carousel-caption">
+
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img alt="..." src="http://d33wyx0pza9yj4.cloudfront.net/sites/543430a26e6f6454b6010000/73f64b29bdd4125ed753caadd77b8f74/IAmPlayful_Fall14-0x0.png">
+                      <div class="carousel-caption">
+
+                      </div>
+                    </div>
+                    <div class="item">
+                          <img alt="..." src="http://d33wyx0pza9yj4.cloudfront.net/sites/543430a26e6f6454b6010000/73f64b29bdd4125ed753caadd77b8f74/IAmPeaceful_Fall14-0x0.png">
+                          <div class="carousel-caption">
+    
+                         </div>
+                    </div>
+                  </div>
+                
+                  <!-- Controls -->
+                  <a data-slide="prev" role="button" href="#carousel-example-generic" class="left carousel-control">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a data-slide="next" role="button" href="#carousel-example-generic" class="right carousel-control">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+            </div>
+        </div>
+        
+
+<script>
+    
+        
+    $(document).ready(function() {
+        renderHolidayHours('#holiday_hours_template','#holiday-hours','#hours_not_empty_section_id','#hours_empty_section_id',getPropertyHours(),2);
+        renderTodaysHours('#todays_hours_template','#todays-hours');
+        
+    });
+</script>
